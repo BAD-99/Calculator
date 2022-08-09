@@ -1,0 +1,18 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0%;
+    height: 100%;
+}
+.calc-buttons{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: stretch;
+}
+
+.calc-button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.5rem;
+}
