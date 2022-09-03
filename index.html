@@ -8,37 +8,40 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="output"></div>
-    <div class="calc-buttons">
-        <button class = "calc-button">%</button>
-        <button class = "calc-button">CE</button>
-        <button class = "calc-button">C</button>
-        <button class = "calc-button">back</button>
+    <div class="output-container">
+        <div class="output-history">history</div>
+        <div class="output">test value</div>
+    </div>
+    <div class="calc-button-grid">
+        <button data-operator class = "calc-button">%</button>
+        <button data-function class = "calc-button">CE</button>
+        <button data-function class = "calc-button">C</button>
+        <button data-function class = "calc-button">back</button>
 
-        <button class = "calc-button">1/x</button>
-        <button class = "calc-button">^</button>
-        <button class = "calc-button">sqrt</button>
-        <button class = "calc-button">/</button>
+        <button data-operator class = "calc-button">1/x</button>
+        <button data-operator class = "calc-button">^</button>
+        <button data-operator class = "calc-button">sqrt</button>
+        <button data-operator class = "calc-button">/</button>
 
-        <button class = "calc-button">7</button>
-        <button class = "calc-button">8</button>
-        <button class = "calc-button">9</button>
-        <button class = "calc-button">X</button>
+        <button data-number class = "calc-button">7</button>
+        <button data-number class = "calc-button">8</button>
+        <button data-number class = "calc-button">9</button>
+        <button data-operator class = "calc-button">X</button>
 
-        <button class = "calc-button">4</button>
-        <button class = "calc-button">5</button>
-        <button class = "calc-button">6</button>
-        <button class = "calc-button">-</button>
+        <button data-number class = "calc-button">4</button>
+        <button data-number class = "calc-button">5</button>
+        <button data-number class = "calc-button">6</button>
+        <button data-operator class = "calc-button">-</button>
 
-        <button class = "calc-button">1</button>
-        <button class = "calc-button">2</button>
-        <button class = "calc-button">3</button>
-        <button class = "calc-button">+</button>
+        <button data-number class = "calc-button">1</button>
+        <button data-number class = "calc-button">2</button>
+        <button data-number class = "calc-button">3</button>
+        <button data-operator class = "calc-button">+</button>
 
-        <button class = "calc-button">+/-</button>
-        <button class = "calc-button">0</button>
-        <button class = "calc-button">.</button>
-        <button class = "calc-button">=</button>
+        <button data-number class = "calc-button">+/-</button>
+        <button data-number class = "calc-button">0</button>
+        <button data-number class = "calc-button">.</button>
+        <button data-function class = "calc-button">=</button>
     </div>
 </body>
 </html>
